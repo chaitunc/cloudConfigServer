@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: file:///${user.home}/config-repo
+          uri: https://github.com/chaitunc/config-repo.git
         
   profiles:
      active: local
