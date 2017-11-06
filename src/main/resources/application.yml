@@ -13,4 +13,4 @@ server:
 
 security:
   user:
-    password: test
+    password: ${config_server_secret}
