@@ -4,9 +4,11 @@ spring:
       server:
         git:
           uri: https://github.com/chaitunc/pdb-config-repo.git
-        
-  profiles:
-     active: local
+          repos:
+            local:
+                pattern: 
+                    - '*/local'
+                uri: file:///C:/workspaces_pdb/pdb-config-repo   
 
 
 security:
